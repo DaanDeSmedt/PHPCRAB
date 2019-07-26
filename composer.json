@@ -1,6 +1,7 @@
 {
     "name": "daandesmedt/phpcrab",
     "description": "A PHP wrapper for the Flemisch CRAB (Centraal Referentieadressenbestand) SOAP webservices (WS & TOOLS)",
+    "keywords": ["php", "geolocation", "CRAB", "opendata", "belgium"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -19,6 +20,7 @@
             "daandesmedt\\Tests\\CRAB\\": "tests/CRAB"
         }
     },
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.1",
         "ext-soap": "*",
