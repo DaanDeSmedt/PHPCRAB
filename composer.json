@@ -1,0 +1,30 @@
+{
+    "name": "daandesmedt/phpcrab",
+    "description": "A PHP wrapper for the Flemisch CRAB (Centraal Referentieadressenbestand) SOAP webservices (WS & TOOLS)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DaanDeSmedt",
+            "email": "daan.de.smedt@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "daandesmedt\\CRAB\\": "src/CRAB"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "daandesmedt\\Tests\\CRAB\\": "tests/CRAB"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-soap": "*",
+        "daandesmedt/phpwktadapter": "^1.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "*"
+    }
+}
